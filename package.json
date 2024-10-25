@@ -1,0 +1,31 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Exemplo de autenticação e controle de sessão usando Node.js, Express e MySQL.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "authentication",
+    "session"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.0",
+    "mysql2": "^2.2.5",
+    "express-session": "^1.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
